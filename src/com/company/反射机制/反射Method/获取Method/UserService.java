@@ -20,4 +20,8 @@ public class UserService {
         }
         return false;
     }
+
+    public void logout() {
+        System.out.println("系统已经安全退出了！");
+    }
 }
